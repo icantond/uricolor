@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,66 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
 }
+:root {
+  /* fonts */
+  --font-dm-sans: "DM Sans";
+  --font-roboto: Roboto;
+  --lexend-thin: Lexend;
+  --h8-regular-16: "Open Sans";
+  --font-inherit: inherit;
+
+
+  /* Colors */
+  --fondo: #f7f2f0;
+  --color-darkslategray: #323135;
+  --primary-light: #ffa51f;
+  --uricolor-colors-primary: #f59f1a;
+  --principal1: #ed9520;
+  --secundary-dark: #0060a8;
+  --color-limegreen: #40c351;
+  --body-light: #fff;
+  --color-lightblue: #bee6fd;
+  --text: #1b1c1e;
+  --color-black: #000;
+  --neutral-400: #9da3ae;
+  --uricolor-colors-secundary: #58585b;
+  --nav-bar: #E6E7E7;
+
+  /* Gaps */
+  --gap-3xs: 0.63rem;
+  --gap-base: 1rem;
+  --gap-7xs: 0.38rem;
+
+  /* Paddings */
+  --padding-5xs: 0.5rem;
+  --padding-base: 1rem;
+  --padding-mini: 0.94rem;
+  --padding-3xs: 0.63rem;
+  --padding-9xs: 0.25rem;
+  --padding-xs: 0.75rem;
+  --padding-6xs-4: 0.4rem;
+  --padding-25xl-8: 2.8rem;
+  --padding-smi-8: 0.8rem;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+  --br-3xs: 10px;
+  --br-11xl: 30px;
+}
+  /* font sizes */
+  /* --font-size-5xl: 1.5rem;
+  --font-size-13xl: 2rem;
+  --lexend-thin-size: 1rem;
+  --memo-18-lexend-size: 1.13rem;
+  --font-size-xl: 1.25rem;
+  --font-size-sm: 0.88rem;
+  --font-size-smi: 0.81rem; */

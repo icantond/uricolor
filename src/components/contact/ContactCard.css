@@ -1,0 +1,101 @@
+.contact-card-container {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  width: 24.125rem;
+  height: 34.375rem;
+  padding: 0.9375rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.625rem;
+  border-radius: 0.625rem;
+  background: var(--primary-light, #FFA51F);
+  position: relative;
+  top: -8%;
+  right: -60%;
+}
+
+.contact-card-title-text {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 3.125rem;
+}
+
+.contact-card-title-container {
+  display: flex;
+  align-items: flex-start;
+  height: 2.75rem;
+  padding: 0.625rem 0rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  align-self: stretch;
+}
+
+.contact-card-primary-container {
+  display: flex;
+  width: 22.3125rem;
+  padding-top: 10px;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-direction: row;
+  position: relative;
+}
+
+.contact-info-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 0.375rem;
+  position: relative;
+  width: 19.438rem;
+}
+
+.contact-card-logo-img {
+  width: 2.25rem;
+  height: 9rem;
+  flex-shrink: 0;
+  position: relative
+}
+
+.contact-card-social-container {
+  display: flex;
+  width: 357px;
+  height: 184px;
+  padding: 0px 10px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: flex-end;
+  flex: 0 0 auto;
+  gap: 0.675rem;
+  position: relative;
+  width: 19.4375rem;
+  align-items: flex-start;
+  gap: 0.625rem;
+}
+
+.contact-info-icon {
+  display: flex;
+  width: 2rem;
+  height: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.contact-info-text{
+  margin-top: -0.063rem;
+  width: fit-content;
+  text-align: left;
+}
+
+.contact-card-social-text{
+  font-size: 1.25rem;
+  font-weight: 700;
+}
